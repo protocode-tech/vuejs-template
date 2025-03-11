@@ -2,5 +2,5 @@
 
 set -e
 
-# Install official extension for vscode
-code --install-extension vue.volar
+# Install vendors
+docker-compose run --rm app npm install --yes
